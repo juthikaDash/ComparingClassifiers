@@ -1,6 +1,6 @@
 # ComparingClassifiers
 In this practical application assignment, my goal is to compare the performance of the classifiers such as:
-  #### 1)k-nearest neighbors, 
+  * 1)k-nearest neighbors, 
   #### 2)logistic regression, 
   #### 3)decision trees, 
   #### 4) support vector machines(SVM)
