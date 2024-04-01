@@ -46,18 +46,18 @@ In conclusion, the Logistic Regression model appears to be the most suitable cho
 Based on the experiment and research provided, there are several ways to further improve the machine-learning model for this problem:
 * Explore parameters for top models:
   The search results indicate that the top-performing models were logistic regression and decision trees. To further improve these models, you could:
-  * 1. For logistic regression, experiment with different regularization techniques (L1, L2, elastic net) and tune the regularization strength to address any overfitting.
-  * 2. For decision trees, try adjusting the maximum depth, minimum samples per leaf, and other hyperparameters to find the optimal model complexity.
+  *  For logistic regression, experiment with different regularization techniques (L1, L2, elastic net) and tune the regularization strength to address any overfitting.
+  *  For decision trees, try adjusting the maximum depth, minimum samples per leaf, and other hyperparameters to find the optimal model complexity.
 
 * Address Class imbalance:
   The search results suggest the dataset has an imbalanced target variable, with some outcomes being more prevalent than others. To mitigate this issue, you could try:
-  ** Oversampling the minority class using techniques like SMOTE.
-  ** Undersampling the majority class to balance the dataset.
-  ** Applying class weights during model training to give more importance to the minority class.
+  * Oversampling the minority class using techniques like SMOTE.
+  * Undersampling the majority class to balance the dataset.
+     Applying class weights during model training to give more importance to the minority class.
   
 * Incorporate additional features
   The search results mention several additional features that could be incorporated to improve model performance, such as:
-   ** Macroeconomic indicators
-   ** Temporal features like month and day
-   ** Handling unknown/missing values in the existing features
+   * Macroeconomic indicators
+   * Temporal features like month and day
+   * Handling unknown/missing values in the existing features
   
